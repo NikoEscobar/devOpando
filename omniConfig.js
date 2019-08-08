@@ -53,6 +53,16 @@ const config = {
       projectDescription,
       infarto: 'não tem preço'
     }
+  },
+  environment_getCookies: {
+    method: 'get',
+    url: 'http://httpbin.org/cookies',
+    withCredentials: true
+  },
+  environment_setCookies: {
+    method: 'get',
+    url: 'https://httpbin.org/cookies/set?freeform=CookieMata',
+    withCredentials: true
   }
 };
 

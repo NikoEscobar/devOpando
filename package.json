@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "single": "sucrase-node ./githubAPI.js",
-    "mult": "sucrase-node ./multipleReq.js"
+    "mult": "sucrase-node ./multipleReq.js",
+    "multCook": "sucrase-node ./multReqCookies.js"
   },
   "author": "Escobar волк",
   "license": "ISC",
